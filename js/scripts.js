@@ -22,7 +22,7 @@ $(document).ready(function() {
   $('img#back1').click(function() {
     $("img#back1").hide();
     $("img#bear1").show();
-    square1 = 1;
+    square1 = 1;square3=0;square4=0;
     console.log(square1);
     compare();
    });
@@ -30,7 +30,7 @@ $(document).ready(function() {
    $('img#back3').click(function() {
      $("img#back3").hide();
      $("img#bear2").show();
-     square2 = 1;
+     square2 = 1;square3=0;square4=0;
      console.log(square2);
      compare();
     });
@@ -38,14 +38,14 @@ $(document).ready(function() {
     $('img#back2').click(function() {
       $("img#back2").hide();
       $("img#duck1").show();
-      square3 = 1;
+      square3 = 1;square1=0;square2=0;
       compare();
      });
 
      $('img#back4').click(function() {
        $("img#back4").hide();
        $("img#duck2").show();
-       square4 = 1;
+       square4 = 1;square1=0;square2=0;
        compare();
       });
 
