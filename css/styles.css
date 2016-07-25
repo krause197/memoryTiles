@@ -1,79 +1,140 @@
 
+
+
+
 .jumbotron{
   background-image:linear-gradient(#ffff4d ,transparent 90%),
   url("../img/background.jpg");
   background-size:contain;
   text-align: center;
-  color: black;
-  font-family: Impact;
-  text-shadow: 1px 1px 0 white;
-}
-.jumbotron h1{
-  font-size: 150px;
 
 }
+.jumbotron h1{
+  font-size: 130px;
+  letter-spacing: 5px;
+  color: #1a1a1a;
+  font-family: Athletic, Impact;
+  text-shadow: 2px 2px white;
+}
+
+
+
 p{
 color: black;
 font-size: 20px;
 background: lightgreen;
+background:linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+background-clip: text;
+text-fill-color: transparent;
+box-shadow: 5px 5px 5px rgba(0,0,0,.4);
 text-align: center;
 margin-top: -40px;
 }
-.container h2{
-color: white;
 
-}
 
 body{
-  background: black;
+  background-image: url("../img/black_squares.jpeg");
+  background-size: cover;
+
+
 }
 
 img{
-  border: 2px solid black;
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.4);
+}
+
+#first,#second,#third,#fourth,#fifth,#sixth,#seventh,#eighth{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
 }
 
 
-#bear1{
+#first:hover,#second:hover,#third:hover,#fourth:hover,
+#fifth:hover,#sixth:hover,#seventh:hover,#eighth:hover {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+
+
+#owl1,#first{
+  position:fixed;
+  margin-top: 100px;
+  margin-left:390px;
+  /*display: none;*/
+}
+
+#owl2,#second{
+  position:fixed;
+  margin-top: 100px;
+  margin-left:505px;
+  /*display: none;*/
+}
+
+#bear1,#third{
   position: fixed;
   margin-top: 100px;
-  margin-left: 500px;
-  display: none;
+  margin-left: 620px;
+  /*display: none;*/
 }
-#duck1{
+
+
+#duck1,#fourth{
   position: fixed;
   margin-top: 100px;
-  margin-left: 610px;
-  display: none;
+  margin-left: 735px;
+  /*display: none;*/
 }
-#bear2{
+
+#bear2,#fifth{
   position: fixed;
   margin-top: 215px;
-  margin-left: 610px;
-  display: none;
+  margin-left: 390px;
+  /*display: none;*/
 }
-#duck2{
+
+#cat1,#sixth{
+  position:fixed;
+  margin-top: 215px;
+  margin-left:505px;
+  /*display: none;*/
+}
+
+#duck2,#seventh{
   position: fixed;
   margin-top: 215px;
-  margin-left: 500px;
-  display: none;
+  margin-left: 620px;
+  /*display: none;*/
 }
-#back1{
-  position: fixed;
-  margin-top: 100px;
-  margin-left: 500px;
-}
-#back2{
-  position: fixed;
-  margin-top: 100px;
-  margin-left: 610px;
-}
-#back3{
-  position: fixed;
+
+#cat2,#eighth{
+  position:fixed;
   margin-top: 215px;
-  margin-left: 610px;
+  margin-left:735px;
+  /*display: none;*/
 }
-#back4{
-  position: fixed;
-  margin-top: 215px;
-  margin-left: 500px;
+
+#winner{
+  font-family: Impact;
+  color: lightgreen;
+  font-size: 50px;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 490px;
+  letter-spacing: 5px;
+  display:none;
+}
+
+#disappear {
+display: none;
+ }
+
+
+@font-face {
+  font-family: "Athletic.ttf";
+  src:local(Athletic),url("../fonts/Athletic.ttf"),  format('truetype');
 }
