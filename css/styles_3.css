@@ -1,7 +1,4 @@
 
-
-
-
 .jumbotron{
   background-image:linear-gradient(#ffff4d ,transparent 90%),
   url("../img/background.jpg");
@@ -16,9 +13,6 @@
   font-family: Athletic, Impact;
   text-shadow: 2px 2px white;
 }
-
-
-
 p{
 color: black;
 font-size: 20px;
@@ -38,103 +32,72 @@ body{
 
 
 }
-
 img{
-  border: 3px solid black;
-  box-shadow: 5px 5px 5px rgba(0,0,0,.4);
-}
-
-#first,#second,#third,#fourth,#fifth,#sixth,#seventh,#eighth{
-  -webkit-filter: grayscale(0);
-	filter: grayscale(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  border: 2px solid black;
 
 }
 
 
 #first:hover,#second:hover,#third:hover,#fourth:hover,
 #fifth:hover,#sixth:hover,#seventh:hover,#eighth:hover {
-  -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+  opacity: 0.5;
+   filter: alpha(opacity=50);
 }
-
-
-
-#owl1,#first{
+#second {
   position:fixed;
   margin-top: 100px;
   margin-left:390px;
-  /*display: none;*/
 }
-
-#owl2,#second{
+#first{
   position:fixed;
   margin-top: 100px;
   margin-left:505px;
-  /*display: none;*/
 }
-
-#bear1,#third{
+#third {
   position: fixed;
   margin-top: 100px;
   margin-left: 620px;
-  /*display: none;*/
 }
-
-
-#duck1,#fourth{
+#fourth {
   position: fixed;
   margin-top: 100px;
   margin-left: 735px;
-  /*display: none;*/
 }
-
-#bear2,#fifth{
+#fifth {
   position: fixed;
   margin-top: 215px;
   margin-left: 390px;
-  /*display: none;*/
 }
-
-#cat1,#sixth{
+#eighth{
   position:fixed;
   margin-top: 215px;
   margin-left:505px;
-  /*display: none;*/
 }
-
-#duck2,#seventh{
-  position: fixed;
-  margin-top: 215px;
-  margin-left: 620px;
-  /*display: none;*/
+#seventh {
+position: fixed;
+margin-top: 215px;
+margin-left: 620px;
 }
-
-#cat2,#eighth{
+#sixth {
   position:fixed;
   margin-top: 215px;
   margin-left:735px;
-  /*display: none;*/
 }
-
-#winner{
-  font-family: Impact;
-  color: lightgreen;
-  font-size: 50px;
-  position: absolute;
-  margin-top: 360px;
-  margin-left: 490px;
-  letter-spacing: 5px;
-  display:none;
-}
-
 #disappear {
-display: none;
- }
+  display: none;
+}
+#winner {
+  display: none;
+  position:fixed;
+  margin-top:150px;
+  margin-left: 430px;
+  color: lightgreen;
+  font-family: Impact;
+  text-shadow: 1px 1px 0 white;
+  font-size: 100px;
+}
 
-
-@font-face {
+font-face {
   font-family: "Athletic.ttf";
   src:local(Athletic),url("../fonts/Athletic.ttf"),  format('truetype');
 }
