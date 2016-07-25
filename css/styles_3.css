@@ -13,6 +13,9 @@
   font-family: Athletic, Impact;
   text-shadow: 2px 2px white;
 }
+
+
+
 p{
 color: black;
 font-size: 20px;
@@ -39,7 +42,7 @@ img{
 
 
 #first:hover,#second:hover,#third:hover,#fourth:hover,
-#fifth:hover,#sixth:hover,#seventh:hover,#eighth:hover {
+#fifth:hover,#sixth:hover,#seventh:hover,#eighth:hover,#ninth:hover,#tenth:hover,#eleventh:hover,#twelfth:hover {
   opacity: 0.5;
    filter: alpha(opacity=50);
 }
@@ -83,6 +86,29 @@ margin-left: 620px;
   margin-top: 215px;
   margin-left:735px;
 }
+#ninth{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 390px;
+}
+#tenth{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 505px;
+}
+
+#eleventh{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 620px;
+}
+#twelfth{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 735px;
+}
+
+
 #disappear {
   display: none;
 }
@@ -93,8 +119,12 @@ margin-left: 620px;
   margin-left: 430px;
   color: lightgreen;
   font-family: Impact;
-  text-shadow: 1px 1px 0 white;
   font-size: 100px;
+  letter-spacing: 5px;
+  background: -webkit-linear-gradient(lightgreen, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 font-face {
