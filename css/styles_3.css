@@ -1,0 +1,141 @@
+
+.jumbotron{
+  background-image:linear-gradient(#ffff4d ,transparent 90%),
+  url("../img/background.jpg");
+  background-size:contain;
+  text-align: center;
+
+}
+.jumbotron h1{
+  font-size: 130px;
+  letter-spacing: 5px;
+  color: #1a1a1a;
+  font-family: Athletic, Impact;
+  text-shadow: 2px 2px white;
+}
+
+
+
+p{
+color: black;
+font-size: 20px;
+background: lightgreen;
+background:linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+background-clip: text;
+text-fill-color: transparent;
+box-shadow: 5px 5px 5px rgba(0,0,0,.4);
+text-align: center;
+margin-top: -40px;
+}
+
+
+body{
+  background-image: url("../img/black_squares.jpeg");
+  background-size: cover;
+
+
+}
+img{
+  border: 2px solid black;
+
+}
+
+
+#first:hover,#second:hover,#third:hover,#fourth:hover,
+#fifth:hover,#sixth:hover,#seventh:hover,#eighth:hover,#ninth:hover,#tenth:hover,#eleventh:hover,#twelfth:hover {
+  opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+#second {
+  position:fixed;
+  margin-top: 100px;
+  margin-left:390px;
+}
+#first{
+  position:fixed;
+  margin-top: 100px;
+  margin-left:505px;
+}
+#third {
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 620px;
+}
+#fourth {
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 735px;
+}
+#fifth {
+  position: fixed;
+  margin-top: 215px;
+  margin-left: 390px;
+}
+#eighth{
+  position:fixed;
+  margin-top: 215px;
+  margin-left:505px;
+}
+#seventh {
+position: fixed;
+margin-top: 215px;
+margin-left: 620px;
+}
+#sixth {
+  position:fixed;
+  margin-top: 215px;
+  margin-left:735px;
+}
+#ninth{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 390px;
+}
+#tenth{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 505px;
+}
+
+#eleventh{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 620px;
+}
+#twelfth{
+  position:fixed;
+  margin-top: 330px;
+  margin-left: 735px;
+}
+
+
+#disappear {
+  display: none;
+}
+#winner {
+  display: none;
+  position:fixed;
+  margin-top:150px;
+  margin-left: 430px;
+  color: lightgreen;
+  font-family: Impact;
+  font-size: 100px;
+  letter-spacing: 5px;
+  background: -webkit-linear-gradient(lightgreen, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#randomize{
+  background:linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Helvetica;
+  margin-top: 30px;
+  margin-left: 570px;
+  display: none;
+}
+@font-face {
+  font-family: "Athletic.ttf";
+  src:local(Athletic),url("../fonts/Athletic.ttf"),  format('truetype');
+}
