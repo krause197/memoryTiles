@@ -40,6 +40,7 @@ function Compare3() {
   //winner index
   if (finishIndex === 6) {
     $("#winner").slideDown();
+    $("#reload").show();
   };
 };
 
