@@ -126,8 +126,16 @@ margin-left: 620px;
   -webkit-text-fill-color: transparent;
 
 }
-
-font-face {
+#randomize{
+  background:linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Helvetica;
+  margin-top: 30px;
+  margin-left: 570px;
+  display: none;
+}
+@font-face {
   font-family: "Athletic.ttf";
   src:local(Athletic),url("../fonts/Athletic.ttf"),  format('truetype');
 }
